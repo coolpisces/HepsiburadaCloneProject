@@ -1,4 +1,35 @@
-#ilk{
-    background-color: red;
-    margin:20 auto;
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Arial,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
+    overflow-x: hidden;
+}
+.top-links li a{
+    text-decoration: none;
+    color:#7b7b7b;
+    font-size:0.68em;
+    font-weight: bold;
+    display: flex;
+    padding-left:15px;
+    }
+   
+.top-links{
+    display: flex;
+    flex-direction: column;
+}
+.top-links ul{
+    display:flex;
+    list-style: none;
+    justify-content: end;
+}
+.topp{
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    position: relative;
+}
+
+.orange-button{
+    display:flex;margin:0 auto; border:none; width:100%;background-color: rgb(255, 96, 0);color:white;
+}
+.geo-area{
+    width: 150px;
 }
