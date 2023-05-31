@@ -28,8 +28,73 @@ body{
 }
 
 .orange-button{
-    display:flex;margin:0 auto; border:none; width:100%;background-color: rgb(255, 96, 0);color:white;
+    display:flex;
+    margin:0 auto; 
+    border:none; 
+    width:100%;
+    background-color: rgb(255, 96, 0);color:white;
+}
+.search-button{
+    display:flex; 
+    border:none; 
+    position: absolute;
+    left:305px;
+    top:1px;
+    background-color: rgb(255, 96, 0);color:white;
 }
 .geo-area{
-    width: 150px;
+    display: flex;
+    align-items:start;
+ 
+    
+}
+.geo-area-out{
+    left:400px;
+}
+.geo-area div > .bi-caret-down-fill{
+    font-size: 10px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.geo-area-button{
+    display: flex;
+    justify-content: left;
+}
+.geo-area-button > p{
+    font-weight:bold;
+    font-size:11px!important;
+}
+.geo-area-button .p-renk{
+    display:flex;color:rgb(255, 96, 0);
+}
+.geo-area-button > div{
+    display: flex;
+}
+.geo-area i{
+    display:flex;
+    font-size:x-large; 
+    width: fit-content;
+    color:rgb(255, 96, 0);
+}
+.geo-area div{
+    display:flex; 
+    flex-direction: column;
+    line-height:1px; 
+}
+
+.search-area :focus{
+    border:1px solid  rgb(255, 96, 0);
+    outline: 3px solid rgb(255, 96, 0);
+
+}
+.search-area>input {
+    border:1px solid  rgb(201, 199, 199);
+    box-shadow: 0 1px 1px rgb(201, 199, 199) inset, 0 0 8px rgb(201, 199, 199);
+    outline: 0 none;
+}
+.search-area{
+    height: max-content;
+    outline: 1px solid rgb(252, 251, 251);
+    width:360px;
+    left:320px;
 }
