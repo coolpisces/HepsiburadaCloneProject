@@ -138,3 +138,11 @@ body{
 .popover-manuel>div>.bi-person{
     font-size: 20px;
 }
+.bi-cart{
+    font-size: 25px;
+}
+.badge-mine{
+    left:25px;
+    margin-top:7px;
+    font-size: 8px;
+}
